@@ -21,4 +21,6 @@ public class PictureDetailActivity extends AppCompatActivity {
         getSupportActionBar().setTitle(tittle);
         getSupportActionBar().setDisplayHomeAsUpEnabled(upButton);
     }
+
+
 }
