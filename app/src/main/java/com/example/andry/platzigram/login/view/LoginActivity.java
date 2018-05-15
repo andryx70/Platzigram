@@ -15,7 +15,6 @@ import com.example.andry.platzigram.login.presenter.LoginPresenter;
 import com.example.andry.platzigram.login.presenter.LoginPresenterImpl;
 import com.example.andry.platzigram.view.ContainerActivity;
 import com.example.andry.platzigram.view.CreateAccountActivity;
-import com.example.andry.platzigram.view.fragment.HomeFragment;
 
 public class LoginActivity extends AppCompatActivity implements LoginView{
 
@@ -40,8 +39,9 @@ public class LoginActivity extends AppCompatActivity implements LoginView{
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                presenter.signIn(username.getText().toString(), password.getText().toString());
                 goHome();
+                presenter.signIn(username.getText().toString(), password.getText().toString());
+
             }
         });
     }

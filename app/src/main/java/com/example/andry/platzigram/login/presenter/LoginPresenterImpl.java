@@ -1,10 +1,7 @@
 package com.example.andry.platzigram.login.presenter;
 
-import android.util.Log;
-import android.view.View;
-
-import com.example.andry.platzigram.login.interarctor.LoginInteractor;
-import com.example.andry.platzigram.login.interarctor.LoginInteractorImpl;
+import com.example.andry.platzigram.login.interactor.LoginInteractor;
+import com.example.andry.platzigram.login.interactor.LoginInteractorImpl;
 import com.example.andry.platzigram.login.view.LoginView;
 
 

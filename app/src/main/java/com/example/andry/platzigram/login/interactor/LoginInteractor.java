@@ -1,4 +1,4 @@
-package com.example.andry.platzigram.login.interarctor;
+package com.example.andry.platzigram.login.interactor;
 
 public interface LoginInteractor {
     void signIn(String username, String password);

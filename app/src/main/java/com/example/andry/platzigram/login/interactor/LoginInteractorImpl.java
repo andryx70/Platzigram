@@ -1,4 +1,4 @@
-package com.example.andry.platzigram.login.interarctor;
+package com.example.andry.platzigram.login.interactor;
 
 import com.example.andry.platzigram.login.presenter.LoginPresenter;
 import com.example.andry.platzigram.login.repository.LoginRepository;
